@@ -85,12 +85,59 @@ javac -d out $(find src -name "*.java")
 
 # Run the main class
 java -cp out edu.ccrm.cli.Main
-hsab'''
+```
 
 Using IntelliJ/Eclipse
 
-Import the project as a Java Project
+1. Import the project as a Java Project
+2. Mark src as the source folder
+3. Run edu.ccrm.cli.Main
 
-Mark src as the source folder
+---
 
-Run edu.ccrm.cli.Main
+📖 Usage Guide
+
+When you run the app, the menu appears:
+
+=== CCRM Menu ===
+1. Add Student
+2. List Students
+3. Add Course
+4. List Courses
+5. Enroll Student in Course
+6. Unenroll Student from Course
+7. Record/Update Grade
+8. Export Student Transcript (text)
+9. Import Students from CSV
+10. Export Students to CSV
+11. Import Courses from CSV
+12. Export Courses to CSV
+0. Exit
+Choose:
+
+Example Run:
+```
+1. Add Student
+RegNo: reg001
+Full name: John Doe
+Email: john@example.com
+
+3. Add Course
+Course code: CS101
+Title: Intro to Programming
+Credits: 4
+Department: CSE
+Semester: FALL
+
+5. Enroll Student in Course
+Student RegNo: reg001
+Course Code: CS101
+
+7. Record/Update Grade
+Student RegNo: reg001
+Course Code: CS101
+Grade: A
+
+8. Export Student Transcript (text)
+Output filename: transcript_john.txt
+```
