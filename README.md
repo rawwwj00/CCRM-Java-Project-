@@ -90,7 +90,7 @@ javac -d out $(find src -name "*.java")
 java -cp out edu.ccrm.cli.Main
 ```
 
-###Using IntelliJ/Eclipse
+### Using IntelliJ/Eclipse
 
 1. Import the project as a Java Project
 2. Mark src as the source folder
@@ -101,7 +101,7 @@ java -cp out edu.ccrm.cli.Main
 ## 📖 Usage Guide
 
 ### When you run the app, the menu appears:
-
+```
 === CCRM Menu ===
 1. Add Student
 2. List Students
@@ -117,7 +117,7 @@ java -cp out edu.ccrm.cli.Main
 12. Export Courses to CSV
 0. Exit
 Choose:
-
+```
 ### Example Run:
 ```
 1. Add Student
