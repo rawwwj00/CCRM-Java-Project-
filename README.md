@@ -98,9 +98,9 @@ java -cp out edu.ccrm.cli.Main
 
 ---
 
-##📖 Usage Guide
+## 📖 Usage Guide
 
-###When you run the app, the menu appears:
+### When you run the app, the menu appears:
 
 === CCRM Menu ===
 1. Add Student
@@ -118,7 +118,7 @@ java -cp out edu.ccrm.cli.Main
 0. Exit
 Choose:
 
-###Example Run:
+### Example Run:
 ```
 1. Add Student
 RegNo: reg001
@@ -144,9 +144,9 @@ Grade: A
 8. Export Student Transcript (text)
 Output filename: transcript_john.txt
 ```
-###👉 This will generate a file transcript_john.txt with details and GPA.
+### 👉 This will generate a file transcript_john.txt with details and GPA.
 
-🧪 Sample Data
+## 🧪 Sample Data
 ```
 test-data/students.csv
 reg001,John Doe,john@example.com
@@ -158,12 +158,12 @@ MA101,Calculus I,3,MATH,FALL
 
 ```
 
-###Import these using menu options 9 and 11.
+### Import these using menu options 9 and 11.
 
 ---
 
 
-##🏗️ OOP Principles Used
+## 🏗️ OOP Principles Used
 
 1. Encapsulation → private fields with getters/setters in Student, Course, etc.
 2. Inheritance → Student and Instructor extend Person.
@@ -175,14 +175,14 @@ MA101,Calculus I,3,MATH,FALL
 
 ---
 
-##📜 Java Evolution Note
+## 📜 Java Evolution Note
 
 This project is implemented using modern Java (JDK 17) features such as enhanced switch, Streams API, java.nio.file for I/O, and enums for type safety.
 It reflects how Java evolved from simple procedural coding (JDK 1.0) to robust OOP with generics, streams, and functional style (Java 8–17).
 
 ---
 
-##📦 Future Improvements
+## 📦 Future Improvements
 
 1. Unit tests (JUnit) for service layer
 2. Export transcripts as PDF instead of plain text
@@ -191,5 +191,5 @@ It reflects how Java evolved from simple procedural coding (JDK 1.0) to robust O
 
 ---
 
-##👨‍💻 Author
-###Developed by RAJ SACHAN
+## 👨‍💻 Author
+### Developed by RAJ SACHAN
